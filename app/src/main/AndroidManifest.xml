@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.robertlimantoproject.madebygue" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.LoginPage"
+            android:label="LoginPage" >
+        </activity>
+
+        <service
+            android:name=".service.LoginService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+        <service
+            android:name=".service.RegisterService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+        <service
+            android:name=".service.ValidateEmailService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+        <service
+            android:name=".service.CreatePageService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".activity.RegisterPage"
+            android:label="@string/title_activity_register_page" >
+        </activity>
+        <activity
+            android:name=".activity.ValidateEmailPage"
+            android:label="@string/title_activity_validate_email_page" >
+        </activity>
+        <activity
+            android:name=".activity.MainPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.IdGuePage"
+            android:label="@string/title_activity_id_gue_page" >
+        </activity>
+        <activity
+            android:name=".activity.EditProfilePage"
+            android:label="@string/title_activity_edit_profile_page" >
+        </activity>
+        <activity
+            android:name=".activity.BaseActivity"
+            android:label="@string/title_activity_base" >
+        </activity>
+        <activity
+            android:name=".activity.DistroGuePage"
+            android:label="@string/title_activity_distro_gue_page" >
+        </activity>
+        <activity
+            android:name=".activity.CreatePage"
+            android:label="@string/title_activity_create_page" >
+        </activity>
+
+        <provider
+            android:name=".provider.OfflineProvider"
+            android:authorities="com.robertlimantoproject.madebygue.app.data.OfflineProvider" />
+
+        <activity
+            android:name=".activity.SubcategoryCreatePage"
+            android:label="@string/title_activity_subcategory_create_page" >
+        </activity>
+        <activity
+            android:name=".activity.CreateProductPage"
+            android:label="@string/title_activity_create_product_page" >
+        </activity>
+    </application>
+
+</manifest>

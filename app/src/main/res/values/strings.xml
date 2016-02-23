@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Madebygue</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- login page -->
+    <string name="app_title">Madebygue</string>
+    <string name="desc_title">"Gua Bisa Custom Barang Disini"</string>
+    <string name="login_now">Login Now</string>
+    <string name="email">Email</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="remember_me">INGAT GUE</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="login_for_btn">LOGIN</string>
+    <string name="reg_title">BARU PERTAMA KALI CUSTOM BARANG DI MADEBYGUE</string>
+    <string name="registration_btn">GUE MAU DAFTAR</string>
+    <string name="copy_right_desc">COPYright bla3x</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_register_page">RegisterPage</string>
+
+    <!-- Register Page -->
+    <string name="reg_page_title">Daftar Sekarang</string>
+    <string name="reg_name">NAMA*</string>
+    <string name="reg_name_hint">Ketik name kamu</string>
+    <string name="reg_handphone">No HP</string>
+    <string name="reg_handphone_hint">Ketik Nomor HP kamu</string>
+    <string name="reg_address">Alamat</string>
+    <string name="reg_address_hint">Ketik alamat kamu</string>
+    <string name="reg_email">Email*</string>
+    <string name="reg_email_hint">Ketik email kamu</string>
+    <string name="reg_password">Password*</string>
+    <string name="reg_password_hint">Ketik password kamu</string>
+    <string name="reg_cfm_pswd">Confirm Password*</string>
+    <string name="reg_cfm_pswd_hint">Ketik password kamu lagi</string>
+    <string name="reg_reg_btn">Gue Daftar</string>
+    <string name="title_activity_validate_email_page">ValidateEmailPage</string>
+
+    <!-- Validate email page-->
+    <string name="ve_resend">Resend</string>
+    <string name="ve_done">Done</string>
+    <string name="ve_validate_later">Validate Later</string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="ve_sending">Sending..</string>
+    <!-- Main page-->
+    <string name="mp_page_title">Made By Gue</string>
+    <string name="btn_mp_login">Sign In</string>
+    <string name="btn_mp_register">Register</string>
+    <string name="title_activity_id_gue_page">IdGuePage</string>
+
+    <!--Id gue page -->
+    <string name="ig_name">Nama</string>
+    <string name="ig_address">Alamat</string>
+    <string name="ig_phone">Phone</string>
+    <string name="ig_handphone">Handphone</string>
+    <string name="ig_email">Email</string>
+    <string name="ig_change">Change</string>
+    <string name="title_activity_edit_profile_page">EditProfilePage</string>
+    <string name="ig_validate_now">Validate Now!</string>
+    <string name="ig_not_validated">Your account is not validated!</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+
+    <!-- Edit Profile Page-->
+
+    <string name="ep_name">Nama</string>
+    <string name="ep_address">Address</string>
+    <string name="ep_handphone">Handphone</string>
+    <string name="btn_ep_save">Save</string>
+    <string name="btn_ig_distro">Distro Gue</string>
+    <string name="btn_ig_deposit">Deposit Gue</string>
+    <string name="btn_ig_klik">Klik Dulu</string>
+    <string name="title_activity_distro_gue_page">DistroGuePage</string>
+
+    <!-- Distro gue page-->
+    <string name="tv_dg_distro">Ini Distro Gue</string>
+
+
+    <!-- Distro card layout-->
+    <string name="sold_default">Sold: 0</string>
+    <string name="name_default">Username</string>
+    <string name="like_default">Like: 0</string>
+    <string name="title_activity_create_page">CreatePage</string>
+
+    <!-- Create page-->
+    <string name="cp_update">Update</string>
+    <string name="title_activity_subcategory_create_page">SubcategoryCreatePage</string>
+    <string name="title_activity_create_product_page">CreateProductPage</string>
+</resources>
